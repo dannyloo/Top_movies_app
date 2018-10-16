@@ -19,4 +19,3 @@ Using Android Studio / Java, build a simple app that displays a list of top new 
 	
 	- Loading of the xml file is done in the background just so it would not freeze the main UI 
 	
-	- 
