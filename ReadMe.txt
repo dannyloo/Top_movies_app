@@ -1,17 +1,22 @@
-Mobile Developer Coding Challenge
+Mobile Developer Coding Execercise
 
+Created for: Redbrick Technogies
 By: Danny Loo
-Date: Sept 21, 2018 
+Date: Oct 15, 2018
+Email: dloo.uwo@gmail.com
 
-The app has the following features: 
+App features: 
 
-	- Curated photos are recieved from the following JSON: 
-	https://api.unsplash.com/photos/curated/?client_id=55d34af08d928ec06dac447c8e11b58311734cc651f78f62029373afb74a5152
-	- Images are displayed in a grid format
-	- App works in both landscape and portrait and aspect ratio of the original image is displayed
-	- When user taps on a photo on the grid it should show only the tapped photo in full screen with more information about the 
-	photo
-	- When user swipes on a photo in full screen, it should show the the next photo and preserve current photo's location on 
-	the grid, so when she dismisses the full screen, grid of photos should contain the last photo she saw in photo details
+Using Android Studio / Java, build a simple app that displays a list of top new movies
+
+	- Use Fandango’s XML/RSS feed to fetch move info:
+	https://www.fandango.com/rss/newmovies.rss
+
+	- The title, fanRating, and thumbnail for each movie is shown in a list. 
+
+	- The user can play the trailer of the movie by tapping anywhere on the row of movies. It links to the trailer but because
+	it is on mobile the website redirects to a mobile site. From the mobile website the user can click to play the trailer.
 	
-The apk file can be found in app/app-release.apk
+	- Loading of the xml file is done in the background just so it would not freeze the main UI 
+	
+	- 
